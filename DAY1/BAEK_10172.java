@@ -1,4 +1,4 @@
-public class BAEK_10172 {
+public class BAEK_10172{
     public static void main(String[] args){
 
         StringBuffer sb = new StringBuffer();
