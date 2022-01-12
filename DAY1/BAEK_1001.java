@@ -8,9 +8,9 @@ public class BAEK_1001 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str, " ");
-        int a = Integer.parseInt(st.nextToken());
+        String str = br.readLine();    //한 행을 전부 읽는 방법
+        StringTokenizer st = new StringTokenizer(str, " ");    //문자열을 공백단위로 분리
+        int a = Integer.parseInt(st.nextToken());    //int형으로 변환
         int b = Integer.parseInt(st.nextToken());
 
         System.out.println(a-b);
