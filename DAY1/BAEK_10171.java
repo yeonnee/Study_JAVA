@@ -3,9 +3,9 @@ public class BAEK_10171{
 
         StringBuffer sb = new StringBuffer();
         sb.append("\\    /\\\n");
-        sb.append(")  ( ')\n");
+        sb.append(" )  ( ')\n");
         sb.append("(  /  )\n");
-        sb.append("\\(__)|\n");
+        sb.append(" \\(__)|\n");
 
         System.out.println(sb);
     }
