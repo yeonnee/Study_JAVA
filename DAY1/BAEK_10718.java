@@ -7,5 +7,4 @@ public class BAEK_10718{
 
         System.out.println(sb);
     }
-
 }
