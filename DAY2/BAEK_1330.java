@@ -13,7 +13,7 @@ public class BAEK_1330{
 
         if(A>B) System.out.println(">");
         else if(A<B) System.out.println("<");
-        else System.out.println("==");
+        else System.out.println("=");
 
         br.close();
     }     
