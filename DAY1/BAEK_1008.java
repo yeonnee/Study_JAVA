@@ -7,6 +7,7 @@ public class BAEK_1008{
 
         double a = scanner.nextDouble();     
         double b = scanner.nextDouble(); 
+        
         System.out.println(a/b);     
         
         scanner.close();
