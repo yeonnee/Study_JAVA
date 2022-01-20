@@ -10,10 +10,18 @@ public class BAEK_1110{
         int count = 0;
         int copy = N;
 
-        do{
+        while(true){
+
             N = (((N%10)*10) + (((N/10)+(N%10))%10));
             count++;
-        }while(copy != N);
+            if(copy == N) break;
+            
+        }
+
+        /*do{
+            N = (((N%10)*10) + (((N/10)+(N%10))%10));
+            count++;
+        }while(copy != N);*/
 
         System.out.println(count);
 
